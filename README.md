@@ -11,12 +11,12 @@
 
             * -e for encryption, followed by -i inputfile -o ouputfile
             * EXAMPLE:
-                - py cryptography.py -e -i content.txt -o cryptographed__content.txt
+                - py algorithm.py -e -i content.txt -o cryptographed__content.txt
 
         * DECRYPTION:
 
             * -d for decryption, followed by -i inputfile and -o outputfile(optional)
             * NOTE: If decryption doesnt have an outputfile it will print at consoles window
             * EXAMPLE:
-            (with output) - python cryptography.py -d -i cryptographed__content.txt -o decoded_content.txt
-            (without output) - python cryptography.py -d -i cryptographed__content.txt
+            (with output) - python algorithm.py -d -i cryptographed__content.txt -o decoded_content.txt
+            (without output) - python algorithm.py -d -i cryptographed__content.txt
