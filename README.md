@@ -1,8 +1,8 @@
 # cryptograph-file
-(Python 3.7.0) Vigenere Cipher to cryptograph files throught command line
-    * What does that do ?
-        This is a code that will open a file and encrypt its content also you can open a encrypted file and decrypt it
-        The cryptograph method is Vigenere Cypher among other things
+(Python 3.7.0) Vigenere Cipher to cryptograph files throught command line<br/>
+    * What does that do ?<br/>
+        This is a code that will open a file and encrypt its content also you can open a encrypted file and decrypt it<br/>
+        The cryptograph method is Vigenere Cypher among other things<br/>
     
     * Instructions :
         * Command line run
