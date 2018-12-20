@@ -14,10 +14,22 @@
         Added more safe inverting the array wich contains the characters cryptographed (after using Vigenere Cypher)
         
     * Instructions:
-      *Basically, you just have to change the name of the input and output files at the top of the code.
-	   NOTE: Make sure that the input file has something in it, or otherwise the code didnt have anything to cryptograph
+      * Command line run
+	    * ENCRYPTION:
+
+		* -e for encryption, followed by -i inputfile -o ouputfile
+		* EXAMPLE:
+		    - py cryptography.py -e -i content.txt -o cryptographed__content.txt
+
+	    * DECRYPTION:
+
+		* -d for decryption, followed by -i inputfile and -o outputfile(optional)
+		* NOTE: If decryption doesnt have an outputfile it will print at consoles window
+		* EXAMPLE:
+		(with output) - python cryptography.py -d -i cryptographed__content.txt -o decoded_content.txt
+		(without output) - python cryptography.py -d -i cryptographed__content.txt
       
-      Main Menu: 
+      Main Menu (not working): 
          Code:  cryptograph a file (filename)
          Decode: decrypt a file with the name of the inputfile
          Anything else: Stop running the code
